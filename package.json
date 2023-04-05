@@ -1,0 +1,44 @@
+{
+  "name": "caasfpp3",
+  "version": "1.0.0",
+  "description": "A project assignmet as CAAS of CPS Laboratory.",
+  "main": "index.js",
+  "dependencies": {
+    "biskviit": "^1.0.1",
+    "connect": "^3.7.0",
+    "debug": "^2.6.9",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "encoding": "^0.1.12",
+    "escape-html": "^1.0.3",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "finalhandler": "^1.1.2",
+    "iconv-lite": "^0.4.24",
+    "ms": "^2.0.0",
+    "on-finished": "^2.3.0",
+    "parseurl": "^1.3.3",
+    "psl": "^1.9.0",
+    "safer-buffer": "^2.1.2",
+    "statuses": "^1.5.0",
+    "unpipe": "^1.0.0",
+    "utils-merge": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froxyroar/CAAS_FPP3.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "froxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/froxyroar/CAAS_FPP3/issues"
+  },
+  "homepage": "https://github.com/froxyroar/CAAS_FPP3#readme"
+}

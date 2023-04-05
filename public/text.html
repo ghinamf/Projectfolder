@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <title>Monitoring Room - Building's Curvew Reminder</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="auto-input"></h1>
+      <div id="clock-data">
+        <span id="v3"></span>:<span id="v4"></span>
+      </div>
+    </header>
+    <main>
+      <h1>TULT's Room State:</h1>
+      <div id="data-container">
+        <div class="data-card">
+          <h2>TULT.13.09</h2>
+          <div class="data-box">
+            <h3>Ultrasonic Sensor</h3>
+            <p id="v0"></p>
+          </div>
+          <div class="data-box">
+            <h3>Virtual Pin V1:</h3>
+            <p id="v1"></p>
+          </div>
+          <div class="data-box">
+            <h3>Virtual Pin V3:</h3>
+            <p id="v3"></p>
+          </div>
+          <div class="data-box">
+            <h3>Virtual Pin V4:</h3>
+            <p id="v4"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      let typed = new Typed(".auto-input",{
+      strings: ["Building's Curvew Reminder", "By : Group 2"],
+      typeSpeed: 150,
+      backSpeed: 50,
+      loop: true
+      });
+    </script>
+  </body>
+</html>
